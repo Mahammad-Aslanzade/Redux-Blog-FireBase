@@ -1,0 +1,68 @@
+#logoPhoto{
+    width: 100px;
+}
+.body-blog{
+    .card {
+      background: none;
+      border-radius: 0;
+      .blog-image {
+        img {
+          width: 100%;
+        }
+      }
+      .blog-body {
+        padding-top: 3vh;
+        p {
+          margin: 0;
+          padding: 5px 0;
+        }
+        .title {
+          color: #252525;
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: bold;
+        }
+        .text {
+          font-family: "Poppins";
+          font-size: 13px;
+          color: #666666;
+        }
+        .moreBtn{
+          padding: 1vh 5px;
+          font-size: 11px;
+          color: #252525;
+          text-transform: uppercase;
+          font-weight: bolder;
+          cursor: pointer;
+          &:hover{
+            &::before{
+              content: ">>";
+            }
+          }
+        }
+      }
+    }
+    #main-right{
+      .button-groups{
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        button{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          background-color: #909090;
+          color: #fff;
+          border: none;
+          margin-right: 10px;
+          &:hover{
+            background-color: #222222;
+          }
+        }
+        .active{
+          background-color: #222222;
+        }
+      }
+    }
+  }
+  @import "Admin";
